@@ -37,6 +37,7 @@ rtps:
     msg: DifferentialPressure
   - id: 17
     msg: DistanceSensor
+    send: true
   - id: 18
     msg: EstimatorInnovations
   - id: 19
@@ -341,6 +342,9 @@ rtps:
     msg: AirspeedWind
   - id: 159
     msg: EstimatorEventFlags
+  - id: 160
+    msg: LidarScan
+    send: true
   - alias: ActuatorControls
     id: 180
     msg: ActuatorControls0
